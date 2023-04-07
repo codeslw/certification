@@ -66,7 +66,7 @@ export default function Hearder() {
                             </div>
                             <ArrowDonw className="stroke-yellow-primary" />
                         </button>
-                        <div className={`w-full lg:w-[350px] origin-top-right lg:-translate-x-[45%] flex flex-col shadow-lg absolute top-4 translate-y-[33%] !z-50 rounded-xl bg-white ${openLanguages ? "scale-100 opacity-100" : "scale-0 opacity-0"} transition-all duration-300 ease-in-out`}>
+                        <div className={`w-full lg:w-[365px] origin-top-right lg:-translate-x-[45%] flex flex-col shadow-lg absolute top-4 translate-y-[33%] !z-50 rounded-xl bg-white ${openLanguages ? "scale-100 opacity-100" : "scale-0 opacity-0"} transition-all duration-300 ease-in-out`}>
                             {languages.map((lang) => <div onClick={() => {
                                 setActiveLanguage(lang)
                                 setopenLanguages(false);
