@@ -26,7 +26,9 @@ export default function Footer() {
 
     return (
 
-        <footer className='flex flex-col items-center pt-5 space-y-4 sm:flex-row sm:justify-between px-[5.2%] relative bottom-0 shadow-md '>
+        <footer className='flex flex-col items-center pt-5 space-y-4 sm:flex-row sm:justify-between px-[5.2%] relative bottom-0' style={{
+            boxShadow: "10px -10px 5px -5px #eee"
+        }}>
             <div className="w-28 aspect-[120/107]">
                 <Logo />
             </div>

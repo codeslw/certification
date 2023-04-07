@@ -54,7 +54,7 @@ export default function Hearder() {
     return (
         <header className='flex flex-col shadow-md'>
             <div className="px-[5.2%] flex justify-between items-center border-b border-[#EFEFEF] py-3 bg-white">
-                <div className="w-12 h-11" onClick={() => router.push("/")}>
+                <div className="w-12 h-11 cursor-pointer" onClick={() => router.push("/")}>
                     <Logo />
                 </div>
                 <div className='flex space-x-1'>
@@ -66,11 +66,11 @@ export default function Hearder() {
                             </div>
                             <ArrowDonw className="stroke-yellow-primary" />
                         </button>
-                        <div className={`w-full origin-top flex flex-col shadow-md absolute top-4 translate-y-[33%] !z-50 rounded-xl bg-white ${openLanguages ? "scale-100 opacity-100" : "scale-0 opacity-0"} transition-all duration-300 ease-in-out`}>
+                        <div className={`w-full lg:w-[350px] origin-top-right lg:-translate-x-[45%] flex flex-col shadow-lg absolute top-4 translate-y-[33%] !z-50 rounded-xl bg-white ${openLanguages ? "scale-100 opacity-100" : "scale-0 opacity-0"} transition-all duration-300 ease-in-out`}>
                             {languages.map((lang) => <div onClick={() => {
                                 setActiveLanguage(lang)
                                 setopenLanguages(false);
-                            }} className='px-2 py-2'>{lang}</div>)}
+                            }} className='px-2 py-2 hover:bg-gray-100 cursor-pointer overflow-hidden rounded-xl'>{lang}</div>)}
                         </div>
                     </div>
                     <button onClick={() => setDrawerOpen(true)} className={`h-12 aspect-square rounded-xl bg-[#F3F3F3] flex sm:hidden flex-col justify-center items-center space-y-1.5`}>

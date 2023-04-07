@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Negotiation() {
     return (
-        <div className='w-full bg-[#F5F5F5] px-4 sm:px-6 py-6 md:pl-[6%] md:py-[4.3%] md:mt-[100px] shadow-md'>
+        <div className='w-full bg-[#F5F5F5] px-4 sm:px-6 py-6 md:pl-[6%] md:py-[4.3%] md:mt-[100px]'>
             <div className="flex items-center space-x-[7%]">
                 <div className="w-full md:w-[49.5%] flex flex-col space-y-4">
                     <div className="text-xl text-black-primary md:text-[40px] md:leading-[42px]">

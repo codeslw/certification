@@ -79,7 +79,7 @@ export default function Contacts() {
 
 
     return (
-        <div className='w-full px-4 lg:px-[5%] py-5 lg:py-10 shadow-md'>
+        <div className='w-full px-4 lg:px-[5%] pt-5 lg:pt-10 pb-[50px] lg:pb-[100px]'>
             <div className="flex flex-col space-y-5 lg:flex-row lg:space-y-0 lg:space-x-5">
                 <div className="w-full lg:w-[50%] bg-[#FAFAFA] px-[10px] space-y-4 lg:space-y-0 py-4 lg:py-7 lg:px-9  rounded-[20px]">
                     <div className="text-4xl leading-[43px] font-bold text-[rgb(68,68,68)] mt-3">
