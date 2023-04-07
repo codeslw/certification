@@ -65,7 +65,7 @@ export default function Application() {
                     styles={{
                     }}>
                     <Map defaultState={{ center: [41.353368, 69.274392], zoom: 14 }} width={"100%"} height={"100%"} >
-                        {/* <Placemark geometry={[41.271319, 69.259498]} options={customPlacemark} /> */}
+                        <Placemark geometry={[41.353368, 69.274392]} />
                     </Map>
                 </YMaps>
             </div>

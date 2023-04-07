@@ -16,6 +16,14 @@ import { useToast } from '@chakra-ui/react'
 import { useRouter } from 'next/router'
 const inter = Inter({ subsets: ['latin'] })
 
+export const getStaticProps = () => {
+  return {
+    props: {
+
+    }
+  }
+}
+
 export default function Home() {
 
   const ref: LegacyRef<HTMLDivElement> | undefined = useRef(null)
