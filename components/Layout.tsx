@@ -10,6 +10,7 @@ export default function Layout(props: ILayout) {
     return (
         <>
             <Header />
+
             {props.children}
             <Footer />
         </>
