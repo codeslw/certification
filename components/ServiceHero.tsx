@@ -10,7 +10,7 @@ export default function ServiceHero(props: { certificate_code: string }) {
 
 
             <div className="text-xl text-black-primary font-medium md:w-[40%]">
-                ВНЕДРЕНИЕ СИСТЕМЫ МЕНЕДЖМЕНТА КАЧЕСТВА <span className='font-bold'>ISO {props.certificate_code}</span>  НА ПРЕДПРИЯТИИ.
+                ВНЕДРЕНИЕ СИСТЕМЫ ЭКОЛОГИЧЕСКОГО МЕНЭДЖМЕНТА <span className='font-bold'>ISO {props.certificate_code}</span>  НА ПРЕДПРИЯТИИ.
             </div>
             <hr className=' border-[#E0E0E0] md:w-[30%]' />
             <div className='flex flex-col px-6 py-4 bg-[#F2F2F2] space-y-4 rounded-xl md:w-[55%]'>
@@ -21,7 +21,7 @@ export default function ServiceHero(props: { certificate_code: string }) {
                             <SMS />
                         </div>
                         <div className="text-sm leading-4 text-dark-secondary">
-                            example@gmail.com
+                            @info.triaaa.uz
                         </div>
                     </div>
                     <div className="flex space-x-2 items-center">

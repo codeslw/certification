@@ -3,38 +3,39 @@ export const cert_cards = [
         name: "Разработка и внедрение ISO 9001",
         description: "ISO 9001:2015 (ГОСТ Р ИСО 9001-2015) - международный стандарт сертификации…",
         photo: "/images/ISO-9001.png",
-        code: "9001"
+        code: "9001",
+        path: "services/9001"
     },
     {
         name: "Разработка и внедрение ISO 14001",
         description: "ISO 14001 - международный стандарт сертификации, в котором сформированы…",
         photo: "/images/ISO-14001.png",
-        code: "14001"
-
+        code: "14001",
+        path: "services/14001"
 
     },
     {
         name: "Разработка и внедрение ISO 45001",
         description: "ISO 45001 - международный стандарт, который разработан с целью предоставить…",
         photo: "/images/ISO-45001.png",
-        code: "45001"
-
+        code: "45001",
+        path: "services/45001"
 
     },
     {
         name: "Разработка и внедрение ISO 22000",
         description: "ISO 22000 это международный стандарт качества, разработанный для…",
         photo: "/images/ISO-22000.png",
-        code: "22001"
-
+        code: "22001",
+        path: "services/22000"
 
     },
     {
         name: "Сертификат ISO 13485",
         description: "ISO 13485 охватывает требования к системе менеджмент качества…",
         photo: "/images/ISO-13485.png",
-        code: "13485"
-
+        code: "13485",
+        path: "services/13485"
 
     },
 

@@ -107,7 +107,7 @@ export default function Contacts() {
                             </div>
                             <div className="flex flex-col">
                                 <div className="text-sm leading-5 font-bold text-yellow-primary">Адрес</div>
-                                <div className="text-sm leading-5 font-normal text-[#7E7E7E]">г. Ташкент, Юнусобадский район, ул Шахристан, Дом 89</div>
+                                <div className="text-sm leading-5 font-normal text-[#7E7E7E]">г. Ташкент, Юнусобадский район, ул Шахристан, Дом 3</div>
                             </div>
                         </div>
                         <div className="flex space-x-3 items-center">
@@ -116,7 +116,7 @@ export default function Contacts() {
                             </div>
                             <div className="flex flex-col">
                                 <div className="text-sm leading-5 font-bold text-yellow-primary">EMAIL</div>
-                                <div className="text-sm leading-5 font-normal text-[#7E7E7E]">example@gmail.com</div>
+                                <div className="text-sm leading-5 font-normal text-[#7E7E7E]">@info.triaaa.uz</div>
                             </div>
                         </div>
                         <div className="flex space-x-3 items-center">

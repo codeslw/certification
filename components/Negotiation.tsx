@@ -20,7 +20,7 @@ export default function Negotiation() {
                         </div>
                         <div className="w-full p-4 md:py-5 md:px-7 flex space-y-1 bg-white rounded-xl flex-col shadow-sm">
                             <div className="text-black-primary text-base leading-none md:text-xl">РАБОТАЕМ ПО ВСЕМУ УЗБЕКИСТАНУ</div>
-                            <div className="text-dark-primary text-sm leading-none">Работаем со всеми городами на территории Узбекистана. Вы можете отправить продукцию к нам в офис</div>
+                            <div className="text-dark-primary text-sm leading-none">Работаем со всеми городами на территории Узбекистана.</div>
                         </div>
                         <div className="w-full p-4 md:py-5 md:px-7 flex space-y-1 bg-white rounded-xl flex-col shadow-sm">
                             <div className="text-black-primary text-base leading-none md:text-xl">ПОДДЕРЖКА ЭКСПЕРТА</div>
