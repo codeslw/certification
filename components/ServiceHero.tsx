@@ -21,7 +21,7 @@ export default function ServiceHero(props: { certificate_code: string }) {
                             <SMS />
                         </div>
                         <div className="text-sm leading-4 text-dark-secondary">
-                            @info.triaaa.uz
+                            triaaaconslult@gmail.com
                         </div>
                     </div>
                     <div className="flex space-x-2 items-center">

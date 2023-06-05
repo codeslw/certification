@@ -26,7 +26,7 @@ export const cert_cards = [
         name: "Разработка и внедрение ISO 22000",
         description: "ISO 22000 это международный стандарт качества, разработанный для…",
         photo: "/images/ISO-22000.png",
-        code: "22001",
+        code: "22000",
         path: "services/22000"
 
     },

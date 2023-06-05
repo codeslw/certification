@@ -116,7 +116,7 @@ export default function Contacts() {
                             </div>
                             <div className="flex flex-col">
                                 <div className="text-sm leading-5 font-bold text-yellow-primary">EMAIL</div>
-                                <div className="text-sm leading-5 font-normal text-[#7E7E7E]">@info.triaaa.uz</div>
+                                <div className="text-sm leading-5 font-normal text-[#7E7E7E]">triaaaconslult@gmail.com</div>
                             </div>
                         </div>
                         <div className="flex space-x-3 items-center">

@@ -65,12 +65,12 @@ export default function Home() {
       <div className='min-h-[500px]'>
 
         <div className='h-max w-max relative overflow-x-hidden'>
-          <div onClick={handleLeftClick} className="w-7 h-7 hidden md:block absolute top-[50%] -translate-y-[50%] left-[5.2%] z-20 cursor-pointer">
+          {/* <div onClick={handleLeftClick} className="w-7 h-7 hidden md:block absolute top-[50%] -translate-y-[50%] left-[5.2%] z-20 cursor-pointer">
             <ArrowRight />
           </div>
           <div onClick={handleRightClick} className="w-7 h-7 hidden md:block absolute top-[50%] -translate-y-[50%] right-[5.2%] rotate-180 z-20 cursor-pointer">
             <ArrowRight />
-          </div>
+          </div> */}
 
           <div ref={ref} id='container' className="w-screen bg-[#f2f2f2] lg:aspect-[3/1] min-h-max flex snap-x snap-mandatory relative scroll-smooth overflow-x-hidden">
 
@@ -90,7 +90,7 @@ export default function Home() {
               <div className={`w-screen h-full absolute min-w-screen min-h-full left-0 top-0 ${imageCount === 0 ? "translate-x-0" : prevCount < imageCount ? "-translate-x-[100%]" : "translate-x-[100%]"} transition-all duration-500 ease-in-out`}>
                 <Image src={"/images/ISO-9001.png"} alt='' fill className='opacity-30' />
               </div>
-              <div className={`hidden lg:block w-screen h-full absolute min-w-screen min-h-full left-0 top-0 ${imageCount === 1 ? "translate-x-0" : prevCount < imageCount ? "-translate-x-[100%]" : "translate-x-[100%]"} transition-all duration-500 ease-in-out`}>
+              {/* <div className={`hidden lg:block w-screen h-full absolute min-w-screen min-h-full left-0 top-0 ${imageCount === 1 ? "translate-x-0" : prevCount < imageCount ? "-translate-x-[100%]" : "translate-x-[100%]"} transition-all duration-500 ease-in-out`}>
                 <Image style={{
                   objectFit: "cover"
                 }} src={"/images/ISO-22000.png"} alt='' fill className='opacity-30' />
@@ -109,7 +109,7 @@ export default function Home() {
                 <Image style={{
                   objectFit: "cover"
                 }} src={"/images/ISO-13485.png"} alt='' fill className='opacity-30' />
-              </div>
+              </div> */}
 
               {/* <div className="hidden lg:block w-[140px] h-[140px] mr-[12%]">
                 <Placeholder />
@@ -123,7 +123,7 @@ export default function Home() {
             <span className='font-bold'>Услуги</span> нашей компании , которые вы можете получить
           </div>
           <hr className='border-[#E0E0E0] w-full lg:w-[50%]   mx-4 lg:mx-[5.2%]' />
-          <div className="mt-5 sm:mt-8 flex space-x-[10px] sm:space-x-5 overflow-x-scroll ml-4 lg:ml-[5%]">
+          <div className="mt-5 sm:mt-8 flex space-x-[10px] sm:space-x-5 overflow-x-scroll ml-4 lg:ml-[5%] scrollbar-hide">
             {cert_cards.map((item) => <Card path={item.path} code={item.code} name={item.name} description={item.description} photo={item.photo} />)}
           </div>
         </div>

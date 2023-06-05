@@ -103,7 +103,7 @@ export default function Application() {
                             <div className="flex flex-col leading-5 text-sm">
                                 <div className="font-bold text-yellow-primary"> EMAIL</div>
                                 <div className="font-normal text-[#7E7E7E]">
-                                    @info.triaaa.uz
+                                    triaaaconslult@gmail.com
                                 </div>
                             </div>
                         </div>
