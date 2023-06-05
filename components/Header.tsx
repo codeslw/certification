@@ -109,7 +109,7 @@ export default function Hearder() {
                         </div>
                         <div className="flex flex-col text-sm text-dark-primary">
                             <div className="opacity-70">Email</div>
-                            <div className="text-base">example@mail.com</div>
+                            <div className="text-base">triaaaconsult@gmail.com</div>
                         </div>
                     </div>
                     <div className="flex space-x-2 items-center cursor-pointer">

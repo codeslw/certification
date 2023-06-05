@@ -64,8 +64,8 @@ export default function Application() {
                 <YMaps
                     styles={{
                     }}>
-                    <Map defaultState={{ center: [41.352338, 69.284288], zoom: 14 }} width={"100%"} height={"100%"} >
-                        <Placemark geometry={[41.352338, 69.284288]} />
+                    <Map defaultState={{ center: [41.353368, 69.274392], zoom: 14 }} width={"100%"} height={"100%"} >
+                        <Placemark geometry={[41.353368, 69.274392]} />
                     </Map>
                 </YMaps>
             </div>
@@ -91,7 +91,7 @@ export default function Application() {
                         <div className="flex flex-col leading-5 text-sm">
                             <div className="font-bold text-yellow-primary">Адрес</div>
                             <div className="font-normal text-[#7E7E7E]">
-                                г. Ташкент, Юнусобадский район, ул Шахристан, Дом 3
+                            г.Ташкент, Юнусабадский район, Шахристан МФЙ, ул. Шахристан, 89
                             </div>
                         </div>
                     </div>
